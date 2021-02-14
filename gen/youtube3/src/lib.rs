@@ -2427,8 +2427,8 @@ pub struct LiveChatMessageSnippet {
     /// messageRetractedEvent - the author that retracted their message
     /// userBannedEvent - the moderator that took the action
     /// superChatEvent - the user that made the purchase
-    #[serde(rename = "authorChannelId")]
-    pub author_channel_id: Option<String>,
+    //#[serde(rename = "authorChannelId")]
+    //pub author_channel_id: Option<String>,
     /// Details about the text message, this is only set if the type is
     /// 'textMessageEvent'.
     #[serde(rename = "textMessageDetails")]
